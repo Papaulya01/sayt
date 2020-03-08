@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Prata&display=swap');
+
+body {
+    font-family: 'Prata', serif;
+    background: #010066;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {}
+
+.logo_text {
+    margin-top: 19px;
+}
+
+.logo_text__top {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.logo_text__bot {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*slogon_wrap*/
+
+.slogon_wrap {
+    width: 262px;
+    margin-top: 64px;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header_bot {
+    background-image: url("../img/Slice_2.png");
+    height: 496px;
+    padding-top: 105px;
+}
+
+.main_h1__wrap {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.7px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.about_company {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.2px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.button_wrap {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    background: #B19B4A;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    margin-top: 52px;
+    text-transform: uppercase;
+}
+
+.button_wrap:focus {
+    outline: none;
+}
+
+/*main*/
+
+main {
+    background: #FFFFFF;
+}
+
+.icon_wrap {
+    text-align: center;
+}
+
+.icon_wrap__title {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.icon_wrap__slogan , .icon_wrap__slogan a {
+    display: block;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-top: 29px;
+}
+.icon_wrap__img {
+    margin-top: 15px;
+}
+.col-lg-2:nth-child(3) .icon_wrap .icon_wrap__img  {
+    margin-top: 26px;
+}
+.col-lg-2:nth-child(3) .icon_wrap .icon_wrap__title     {
+    margin-top: 50px;
+}
+.telephone {
+    width: 164px;
+}
