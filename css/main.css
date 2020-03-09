@@ -173,14 +173,13 @@ main {
     height: 95px;
 }
 .product_item_title {
-    margin-top: 20px;
+    margin-top: 46px;
     font-family: Prata;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
     line-height: 23px;
     text-align: center;
-
     color: #000000;
 }
 .about_us {
@@ -193,23 +192,20 @@ main {
     font-size: 25px;
     line-height: 34px;
     text-align: center;
-
     color: #000000;
     margin-bottom: 50px;
 }
 .about_us_text {
-
     font-family: Prata;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
     line-height: 20px;
-
     color: #000000;
 }
 .about_us_btn {
     border: none;
-    outline: none;
+    outline: none;product_item col-lg-4
     width: 165px;
     height: 55px;
     background: #B19B4A;
@@ -218,6 +214,9 @@ main {
     font-weight: normal;
     font-size: 18px;
     text-align: center;
-
     color: #FFFFFF;
+}
+
+.product_item_img img {
+    margin-left: 40px;
 }
