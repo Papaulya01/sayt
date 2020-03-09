@@ -4,7 +4,9 @@ body {
     font-family: 'Prata', serif;
     background: #010066;
 }
-
+a {
+    display: block;
+}
 a:hover {
     text-decoration: none;
 }
@@ -93,7 +95,7 @@ header {}
     text-transform: uppercase;
 }
 
-.button_wrap:focus {
+button:focus {
     outline: none;
 }
 
@@ -101,6 +103,7 @@ header {}
 
 main {
     background: #FFFFFF;
+    padding-bottom: 62px;
 }
 
 .icon_wrap {
@@ -139,4 +142,82 @@ main {
 }
 .telephone {
     width: 164px;
+}
+.product_block {
+    margin-top: 67px;
+}
+.product_block_title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+.product_item_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_item {
+    margin-top: 29px;
+}
+.product_item a {
+    background: #FFFFFF;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 174px;
+}
+.product_item_img {
+    width: 261px;
+    height: 95px;
+}
+.product_item_title {
+    margin-top: 20px;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+}
+.about_us {
+    margin-top: 79px;
+}
+.about_us_title {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #000000;
+    margin-bottom: 50px;
+}
+.about_us_text {
+
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #000000;
+}
+.about_us_btn {
+    border: none;
+    outline: none;
+    width: 165px;
+    height: 55px;
+    background: #B19B4A;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
