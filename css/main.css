@@ -15,6 +15,7 @@ header {}
 
 .logo_text {
     margin-top: 19px;
+    width: 257px;
 }
 
 .logo_text__top {
@@ -233,13 +234,125 @@ footer {}
     background: #000000;
 }
 
+.footer_top__contact_text {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.7px;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 27px;
+}
 
+.footer_top__reg_text a {
+    display: block;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
 
+.footer_top__reg_text a:hover {
+    color: #AA1919;
+}
 
+.footer_top__namber a {
+    display: block;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
 
+.footer_top__namber a:hover {
+    color: #AA1919;
+}
 
+.footer_top__mail a {
+    display: block;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
 
+.footer_top__mail a:hover {
+    color: #AA1919;
+}
 
+.footer_top__name_of_item_wrap::before {
+    content: "";
+    border-left: 2px solid #000000;
+    position: absolute;
+    height: 273px;
+    top: 30px;
+    left: 5px;
+}
+
+.footer_top__name_of_item {
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.7px;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 27px;
+}
+
+.footer_top__name_of_item_slogan a {
+    display: block;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.footer_top__name_of_item_slogan a:hover {
+    color: #AA1919;
+}
+
+.footer_top__name_of_item_text a {
+    display: block;
+    font-family: Prata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.footer_top__name_of_item_text a:hover {
+    color: #AA1919;
+}
+
+.footer_bottom {}
+
+.footer_bottom_last_wrap a {
+    display: block;
+    font-family: Poly;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21.2px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 
 
 
