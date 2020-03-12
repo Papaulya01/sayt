@@ -68,6 +68,7 @@ header {}
 }
 
 .about_company {
+    width: 652px;
     font-family: Prata;
     font-style: normal;
     font-weight: normal;
@@ -227,7 +228,9 @@ main {
 footer {}
 
 .footer_top {
-    background: #313051;
+    background: #3c3a70;
+    padding-about_companybottom: 50px;
+    padding-bottom: 50px;
 }
 
 .footer_bottom {
